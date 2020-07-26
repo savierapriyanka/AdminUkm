@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RequestsDetailsActivity">
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/namadepan"
+        android:ems="10"
+        android:hint="Nama Depan"
+        android:gravity="center" />
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="Nama Belakang"
+        android:ems="10"
+        android:gravity="center"
+        android:id="@+id/namabelakang" />
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/email"
+        android:ems="10"
+        android:hint="Email"
+        android:gravity="center" />
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/telepon"
+        android:ems="10"
+        android:hint="Nomor Telepon"
+        android:gravity="center" />
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/alamat"
+        android:ems="10"
+        android:hint="Alamat"
+        android:gravity="center" />
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ukm"
+        android:hint="Ukm"
+        android:gravity="center" />
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/alasan"
+        android:ems="10"
+        android:hint="Alasan"
+        android:gravity="center" />
+    <Button
+        android:id="@+id/update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UPDATE" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DELETE"
+        android:id="@+id/delete" />
+</LinearLayout>

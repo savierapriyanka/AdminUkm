@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:gravity="center" android:orientation="vertical"
+    tools:context=".FormDaftar">
+
+    <TextView
+        android:id="@+id/insert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:text="INSERT DATA"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <EditText
+        android:layout_width="350dp" android:layout_height="wrap_content" android:id="@+id/namadepan" android:hint="Nama Depan" android:gravity="center"
+        />
+    <EditText
+        android:layout_width="350dp" android:layout_height="wrap_content" android:hint="Nama Belakang"
+        android:gravity="center" android:id="@+id/namabelakang" />
+    <EditText
+        android:layout_width="350dp" android:layout_height="wrap_content" android:id="@+id/email" android:hint="Email" android:gravity="center"
+        />
+    <EditText
+        android:layout_width="350dp" android:layout_height="wrap_content" android:id="@+id/telepon" android:hint="Nomor Telepon" android:gravity="center"
+        />
+    <EditText
+        android:layout_width="350dp" android:layout_height="wrap_content" android:id="@+id/alamat" android:hint="Alamat" android:gravity="center"
+        />
+    <EditText
+        android:layout_width="350dp" android:layout_height="wrap_content" android:id="@+id/ukm" android:hint="Ukm" android:gravity="center"
+        />
+    <EditText
+        android:layout_width="350dp" android:layout_height="wrap_content" android:id="@+id/alasan" android:hint="Alasan" android:gravity="center"
+        />
+    <Button
+        android:id="@+id/submit" android:layout_width="100dp" android:layout_height="50dp" android:text="SUBMIT" android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/btnview"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="View Data" />
+
+</LinearLayout>

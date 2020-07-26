@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="save" type="id" />
+    <item name="tes" type="id" />
+    <item name="activity_request_details" type="id" />
+    <item name="listview" type="id" />
+</resources>
